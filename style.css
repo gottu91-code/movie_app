@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+.contents_list {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    z-index: 100;
+}
+
+.contents_list h1 {
+    text-align: center;
+    margin: 0 0 16px;
+}
+
+ul#list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+ul#list li {
+    width: 18%;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+ul#list {
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+ul#list li .text_box {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+.contents_list {}
+
+ul#list li .img {position: relative;width: 100%;height: 260px;background-color: #eee;}
+
+ul#list li .img img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+li {
+    list-style: none;
+}
+
+ul.btn_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul.btn_box li {
+    margin: 0 8px;
+}
+
+ul#list li .text_box p.ttl {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+ul#list li .text_box p.day {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+}
+
+ul#list li .text_box p.releaseOrder {
+    background-color: #d07a7a;
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+    width: 110px;
+    font-weight: bold;
+}
+
+ul#list li:nth-child(n + 6) {
+    margin-top: 45px;
+}
+
+#release_order_btn.active,
+#time_series_btn.active {
+    background-color: #aaa;
+    color: #fff;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+ul.btn_box button {
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    padding: 3px 20px;
+}
+
+body {
+    margin: 0;
+    background-image: url(https://pixiin.com/img/773-l2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    padding: 100px 0;
+}
+
+body::before {content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,0.8);}
+
+@media (max-width: 750px) {
+    .contents_list {
+        width: 100%;
+    }
+    
+    .contents_list h1 {
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    ul#list li {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: #efefef; */
+    }
+    
+    ul#list li .img {
+        width: 22%;
+        height: 100px;
+    }
+    
+    ul#list li .text_box {
+        width: 75%;
+        text-align: left;
+        margin: 0;
+    }
+    
+    ul#list li .text_box p.ttl {
+        font-size: 14px;
+    }
+    
+    ul#list li .text_box p.day {
+        font-size: 11px;
+    }
+    
+    ul#list li .text_box p.releaseOrder {
+        font-size: 11px;
+        display: block;
+        width: 60px;
+        padding: 0;
+        text-align: center;
+        margin-top: 3px;
+    }
+    
+    ul#list li:nth-child(n + 6) {
+        margin-top: 0;
+    }
+    
+    ul#list li:nth-child(n + 2) {
+        margin-top: 5px;
+    }
+    
+    ul.btn_box {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: #fff;
+        padding: 10px 0 25px;
+        /* border-top: 2px solid #111; */
+        left: 0;
+    }
+
+    body {
+        padding: 50px 15px 114px;
+    }
+    
+    body::before {
+        background-color: rgba(0,0,0,0.9);
+    }
+}
