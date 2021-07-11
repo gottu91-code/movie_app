@@ -6,7 +6,7 @@ const movieList = [
         timeSeriesOrder: 3,
     },
     {
-        img: 'https://static.wikia.nocookie.net/marveldatabase/images/d/db/20180331152837.jpg/revision/latest?cb=20180515070921&path-prefix=ja',
+        img: 'https://images-na.ssl-images-amazon.com/images/I/61ExZhdUy9L._AC_SY445_.jpg',
         name: 'アイアンマン2',
         day: '2006.6.15',
         timeSeriesOrder: 2,
@@ -36,7 +36,7 @@ const movieList = [
         timeSeriesOrder: 5,
     },
     {
-        img: 'https://static.wikia.nocookie.net/marveldatabase/images/d/db/20180331152837.jpg/revision/latest?cb=20180515070921&path-prefix=ja',
+        img: 'https://images-na.ssl-images-amazon.com/images/I/61ExZhdUy9L._AC_SY445_.jpg',
         name: 'アイアンマン2',
         day: '2006.6.15',
         timeSeriesOrder: 1,
